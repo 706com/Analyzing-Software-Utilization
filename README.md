@@ -55,6 +55,7 @@ Practice Spring
 1. "데이터 가져오기" 를 위한 설정관련 파일 수정 및 작성 
 POM.xml , root-context.xml , mabatis-config.xml , logback.xml , log4jdbc.log4j2.properties , test.xml  
 2. "데이터 조회" 를 위한 JAVA 코드작성  
+3. 톰캣 url 세팅 변경 
   
   
 ###### -시행착오-
@@ -67,3 +68,5 @@ xmlns:context="http://www.springframework.org/schema/context" 문장 추가와
   
 ###### -Q&A-
 1. getter / setter 를 하는 이유는?  
+2. mybatis 란?  
+3. 각각의 dependency , bean , configuration 들의 쓰임은 무엇인가?  
