@@ -13,8 +13,8 @@ Practice Spring
 2. 환경변수 세팅 (JAVA HOME -> jdk1.8u_221)
   
 ###### Q&A)  
-  a. jdk / jre 차이는?   
-  b. 환경변수 셋팅 하는 이유는?   
+  1. jdk / jre 차이는?   
+  2. 환경변수 셋팅 하는 이유는?   
     
 ### 2. Eclipse, Spring 다운로드 및 설치 (완료)  
 1. Eclipse (JAVA EE IDE) 설치 
