@@ -1,7 +1,7 @@
 # Comento_Spring
 
   
-#### Question  
+#### Questions to mentor
 ### 1주차 (완료)  
 -Readme 파일을 어떤식으로 작성해야 하나요?    
 -워드파일 작성....??  
