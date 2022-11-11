@@ -12,8 +12,9 @@ Practice Spring
 1. JDK 1.8u_221 버전 설치 
 2. 환경변수 세팅 (JAVA HOME -> jdk1.8u_221)
   
-  Q)jdk / jre 차이는?   
-    환경변수 셋팅 하는 이유는?   
+  Q&A)  
+  jdk / jre 차이는?   
+  환경변수 셋팅 하는 이유는?   
     
 ### 2. Eclipse, Spring 다운로드 및 설치 (완료)  
   -겪은 문제  
