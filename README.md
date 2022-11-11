@@ -39,14 +39,17 @@ Practice Spring
 2. pom.xml : 스프링 버전 변경 (버전 : 5.3.23 (@22.11월 기준 최신))  
 3. pom.xml : jdk 버전 변경 (버전 : 1.8)  
 4. pom.xml : maven-compiler 버전 변경 (qjwjs : 3.10.1 (@22.11월 기준 최신))  
-5. 톰캣 서버세팅 및 구동 (버전 : 9.0 , localhost:8080/settingweb)
-
-  -겪은 문제  
-  Q)  
+5. 톰캣 서버세팅 및 구동 (버전 : 9.0 , localhost:8080/settingweb)  
+  
     
 ### 5. mariaDB, mySql WorkBench 설치 및 샘플 DB 구축 (완료)  
-  -겪은 문제  
-  Q)  
+1. mariadb (JDBC), mysql_workbench (sql_developer) 설치  
+2. 스키마 및 테이블 생성 ( (theater) / (movie_id , movie_name , director , type , moviecol) )  
+3. 
+ 
+###### Q)  
+1. mariadb 와 mysql_workbench 의 차이는 뭘까?
+2. 
     
 ### 6. 스프링, Mariadb, MyBatis 연동, 데이터 조회 (완료)  
   -겪은 문제  
