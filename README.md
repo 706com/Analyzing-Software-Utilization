@@ -45,13 +45,17 @@ Practice Spring
 ### 5. mariaDB, mySql WorkBench 설치 및 샘플 DB 구축 (완료)  
 1. mariadb (JDBC), mysql_workbench (sql_developer) 설치  
 2. 스키마 및 테이블 생성 ( (theater) / (movie_id , movie_name , director , type , moviecol) )  
-3. 
- 
-###### Q)  
-1. mariadb 와 mysql_workbench 의 차이는 뭘까?
-2. 
-    
-### 6. 스프링, Mariadb, MyBatis 연동, 데이터 조회 (완료)  
-  -겪은 문제  
-  Q)  
   
+  
+###### Q&A)  
+1. mariadb 와 mysql_workbench 의 차이는?
+  
+  
+### 6. 스프링, Mariadb, MyBatis 연동, 데이터 조회 (완료)  
+1. "데이터 가져오기" 를 위한 설정관련 파일 수정 및 작성 
+POM.xml , root-context.xml , mabatis-config.xml , logback.xml , log4jdbc.log4j2.properties , test.xml  
+2. "데이터 조회" 를 위한 JAVA 코드작성  
+
+###### Q&A)
+1. getter / setter 를 하는 이유는?
+2.   
