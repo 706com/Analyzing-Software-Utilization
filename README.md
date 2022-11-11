@@ -17,10 +17,10 @@ Practice Spring
   2. 환경변수 셋팅 하는 이유는?   
     
 ### 2. Eclipse, Spring 다운로드 및 설치 (완료)  
-1. Eclipse (JAVA EE IDE) 설치 
+1. Eclipse (JAVA EE IDE) 설치(버전 : 2020-06) 
 2. Eclipse.ini 파일 내용안에 -vm C:\Program Files\Java\jdk1.8.0_221\bin\javaw.exe 추가 (상단)  
 3. jsp, html ,css 인코딩 : UTF-8 로 수정  
-4. 이클립스 마켓에서 spring STS (Spring Tool) 설치  
+4. 이클립스 마켓에서 spring STS (Spring Tool) 설치 (버전 : 
 ###### 겪은 문제  
   1. 이클립스와 이클립스 EE IDE 를 착각하여 실행 오류를 겪었다.   
 ###### Q&A)  
@@ -29,10 +29,14 @@ Practice Spring
   3. 인코딩(UTF-8) 이란 무엇이며 변경이유는?
     
 ### 3. 톰캣 설정 (완료)  
-  -겪은 문제  
-  Q)  
+1. 톰캣 다운로드 ( 버전: 9 (jdk 1.8 과 호환))    
+  
+###### Q&A)
+1. 톰캣이란?  
     
 ### 4. Hello World 출력 (완료)  
+  
+  
   -겪은 문제  
   Q)  
     
