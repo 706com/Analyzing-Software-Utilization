@@ -12,7 +12,7 @@ Practice Spring
 1. JDK 1.8u_221 버전 설치 
 2. 환경변수 세팅 (JAVA HOME -> jdk1.8u_221)
   
-  Q&A)  
+###### Q&A)  
   1. jdk / jre 차이는?   
   2. 환경변수 셋팅 하는 이유는?   
     
@@ -21,9 +21,9 @@ Practice Spring
 2. Eclipse.ini 파일 내용안에 -vm C:\Program Files\Java\jdk1.8.0_221\bin\javaw.exe 추가 (상단)  
 3. jsp, html ,css 인코딩 : UTF-8 로 수정  
 4. 이클립스 마켓에서 spring STS (Spring Tool) 설치  
-  -겪은 문제  
+###### 겪은 문제  
   이클립스와 이클립스 EE IDE 를 착각하여 실행 오류를 겪었다.   
-  Q&A)  
+###### Q&A)  
   1. 이클립스와 이클립스 EE IDE 의 차이는?  
   2. Eclipse.ini 수정이유는? 
   3. 인코딩(UTF-8) 이란 무엇이며 변경이유는?
