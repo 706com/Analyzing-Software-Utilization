@@ -1,5 +1,5 @@
 # Comento_Spring
-Practice Spring 
+스스로 Q&A 에 답해보기   
   
 ## <1주차>
 **이번 과정은 스프링 부트를 활용할 예정입니다.**  
