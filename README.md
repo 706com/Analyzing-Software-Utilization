@@ -22,7 +22,7 @@ Practice Spring
 3. jsp, html ,css 인코딩 : UTF-8 로 수정  
 4. 이클립스 마켓에서 spring STS (Spring Tool) 설치  
 ###### 겪은 문제  
-  1.이클립스와 이클립스 EE IDE 를 착각하여 실행 오류를 겪었다.   
+  1. 이클립스와 이클립스 EE IDE 를 착각하여 실행 오류를 겪었다.   
 ###### Q&A)  
   1. 이클립스와 이클립스 EE IDE 의 차이는?  
   2. Eclipse.ini 수정이유는? 
