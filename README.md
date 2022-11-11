@@ -55,7 +55,14 @@ Practice Spring
 1. "데이터 가져오기" 를 위한 설정관련 파일 수정 및 작성 
 POM.xml , root-context.xml , mabatis-config.xml , logback.xml , log4jdbc.log4j2.properties , test.xml  
 2. "데이터 조회" 를 위한 JAVA 코드작성  
-
+  
+  
+###### -시행착오-
+1. POM.xml : dendencies 를 읽을 때, db dependency 가 spring dependency 보다 앞에 존재하면 안된다.
+2. root-context.xml : context를 읽기 위해서  
+xmlns:context="http://www.springframework.org/schema/context" 문장 추가와  
+> > xsi:schemaLocation 안에,
+> > http://www.springframework.org/schema/context  
+> > http://www.springframework.org/schema/context/spring-context.xsd  
 ###### -Q&A-
-1. getter / setter 를 하는 이유는?
-2.   
+1. getter / setter 를 하는 이유는?  
