@@ -14,13 +14,13 @@
 (스프링 부트의 경우 3차 과제에서 셋팅 진행합니다.)  
 
 
-##### 1. JDK 1.8 설치 (완료)  
+#### 1. JDK 1.8 설치 (완료)  
 1. JDK 1.8u_221 버전 설치  
 2. 환경변수 세팅 (JAVA HOME -> jdk1.8u_221)  
 ###### Q&A)  
 1. jdk / jre 차이는?  
 2. 환경변수 셋팅 하는 이유는?  
-##### 2. Eclipse, Spring 다운로드 및 설치 (완료)  
+#### 2. Eclipse, Spring 다운로드 및 설치 (완료)  
 1. Eclipse (JAVA EE IDE) 설치(버전 : 2020-06)  
 2. Eclipse.ini 파일 내용안에 -vm C:\Program Files\Java\jdk1.8.0_221\bin\javaw.exe 추가 (상단)  
 3. jsp, html ,css 인코딩 : UTF-8 로 수정  
@@ -31,22 +31,22 @@
 1. 이클립스와 이클립스 EE IDE 의 차이는?  
 2. Eclipse.ini 수정이유는?  
 3. 인코딩(UTF-8) 이란 무엇이며 변경이유는  
-##### 3. 톰캣 설정 (완료)  
+#### 3. 톰캣 설정 (완료)  
 1. 톰캣 다운로드 ( 버전: 9 (jdk 1.8 과 호환))  
 ###### -Q&A-  
 1. 톰캣이란?  
-##### 4. Hello World 출력 (완료)  
+#### 4. Hello World 출력 (완료)  
 1. 스프링 프로젝트 생성  
 2. pom.xml : 스프링 버전 변경 (버전 : 5.3.23 (@22.11월 기준 최신))  
 3. pom.xml : jdk 버전 변경 (버전 : 1.8)  
 4. pom.xml : maven-compiler 버전 변경 (qjwjs : 3.10.1 (@22.11월 기준 최신))  
 5. 톰캣 서버세팅 및 구동 (버전 : 9.0 , localhost:8080/settingweb)  
-##### 5. mariaDB, mySql WorkBench 설치 및 샘플 DB 구축 (완료)  
+#### 5. mariaDB, mySql WorkBench 설치 및 샘플 DB 구축 (완료)  
 1. mariadb (JDBC), mysql_workbench (sql_developer) 설치  
 2. 스키마 및 테이블 생성 ( (theater) / (movie_id , movie_name , director , type , moviecol) )  
 ###### -Q&A-  
 1. mariadb 와 mysql_workbench 의 차이는?  
-##### 6. 스프링, Mariadb, MyBatis 연동, 데이터 조회 (완료)  
+#### 6. 스프링, Mariadb, MyBatis 연동, 데이터 조회 (완료)  
 1. "데이터 가져오기" 를 위한 설정관련 파일 수정 및 작성 POM.xml , root-context.xml , mabatis-config.xml , logback.xml , log4jdbc.log4j2.properties , test.xml  
 2. "데이터 조회" 를 위한 JAVA 코드작성  
 3. 톰캣 url 세팅 변경  
