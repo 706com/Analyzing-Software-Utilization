@@ -5,6 +5,7 @@
 ### 1주차 : 개발환경 셋팅 (완료)   
 <details>
       <summary>자세히</summary>
+  
             Comento_Spring
             스스로 Q&A 에 답해보기
 
@@ -66,7 +67,7 @@
             mybatis 란?
             각각의 dependency , bean , configuration 들의 쓰임은 무엇인가?
 
-              </details>
+</details>
   
 ### 2주차 : 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 (진행중)  
 -  
