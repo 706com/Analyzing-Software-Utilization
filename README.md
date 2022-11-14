@@ -60,11 +60,13 @@
             http://www.springframework.org/schema/context
             http://www.springframework.org/schema/context/spring-context.xsd 를 추가해야한다.
 
-</details>
--Q&A-
-getter / setter 를 하는 이유는?
-mybatis 란?
-각각의 dependency , bean , configuration 들의 쓰임은 무엇인가?
+
+            -Q&A-
+            getter / setter 를 하는 이유는?
+            mybatis 란?
+            각각의 dependency , bean , configuration 들의 쓰임은 무엇인가?
+
+              </details>
   
 ### 2주차 : 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 (진행중)  
 -  
