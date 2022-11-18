@@ -83,7 +83,7 @@ xmlns:context="http://www.springframework.org/schema/context" 문장 추가와
 -  
   
   
-### 3주차 : 스프링부트 환경을 셋팅 / 간단한 API를 만들기 ()  
+### 3주차 : 스프링부트 환경을 셋팅 / 간단한 API를 만들기 (진행중)  
 -  
   
   
