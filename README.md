@@ -3,11 +3,11 @@
   
 <해야 할 일>  
 -readme file 정리  
- > markdown 공부 후, 깔끔하게 정리
- > >최상단 readme -> 약식으로 과제 및 과정 설명
- > >주차별 readme -> 상세한 설명, 시행착오, Q&A 별로 묶어서 정리
-
-
+ > markdown 공부 후, 깔끔하게 정리  
+ > >최상단 readme -> 약식으로 과제 및 과정 설명  
+ > >주차별 readme -> 상세한 설명, 시행착오, Q&A 별로 묶어서 정리  
+  
+  
 ### 1주차 : 개발환경 셋팅 (완료)   
 <details>
   <summary>자세히</summary>
