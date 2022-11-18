@@ -3,8 +3,8 @@
   
    
 1. Rest 란 무엇인가. ( Rest / Rest API / Restful API ) (완료)  
-2. HTTP 통신과정 (완료)  
-    
+  
+3. HTTP 통신과정 (완료)   
 > 1) HTTP 통신과정  
 > 2) URL 요청 및 응답 과정  
   
