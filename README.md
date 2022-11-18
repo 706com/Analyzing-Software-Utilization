@@ -1,13 +1,18 @@
 # Comento_Spring
 
-  
-<해야 할 일>  
+<details>
+<summary><해야 할 일> </summary>
 -readme file 정리  
  > markdown 공부 후, 깔끔하게 정리  
- > >최상단 readme -> 약식으로 과제 및 과정 설명  
- > >주차별 readme -> 상세한 설명, 시행착오, Q&A 별로 묶어서 정리  
-  
-  
+ > >최상단 readme -> 약식으로만 과제 및 소제목만 작성 + 주차별 로 가는 링크걸기    
+ > >주차별 readme -> 상세한 설명, 시행착오, Q&A 별로 묶어서 정리    
+   
+ -word file 정리 
+ >목차 넣기  
+ >설명 가독성 있고, 깔끔하게 정리 (하는김에 word 에 적응하고 기본단축키 숙지)    
+   
+</details>  
+     
 ### 1주차 : 개발환경 셋팅 (완료)   
 <details>
   <summary>자세히</summary>
