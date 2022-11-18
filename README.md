@@ -3,10 +3,11 @@
 <details>
 <summary><해야 할 일> </summary>  
    
+     
 1.readme file 정리  
  > markdown 공부 후, 깔끔하게 정리  
  > >최상단 readme -> 약식으로만 과제 및 소제목만 작성 + 주차별 로 가는 링크걸기    
- > >주차별 readme -> 상세한 설명작성 + 시행착오, Q&A 별로 묶어서 문단     
+ > >주차별 readme -> 상세한 설명작성 + 시행착오, Q&A 별로 묶어서 문단화 시키기     
    
  2.word file 정리 
  >목차 넣기  
