@@ -1,7 +1,7 @@
 # Comento_Spring
 
 <details>
-<summary><✔해야 할 일✔> </summary>  
+<summary><❗ 해야 할 일 ❗> </summary>  
    
      
 1.readme file 정리  
