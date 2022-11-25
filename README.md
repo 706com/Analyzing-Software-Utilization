@@ -15,7 +15,7 @@
    
 </details>  
      
-### 1주차 : 개발환경 셋팅 (완료)   
+### 1주차 : 개발환경 셋팅 (✅)   
 <details>
   <summary>자세히</summary>
   
@@ -79,11 +79,11 @@ xmlns:context="http://www.springframework.org/schema/context" 문장 추가와
 
 </details>
   
-### 2주차 : 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 (완료)  
+### 2주차 : 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 (✅)  
 -  
   
   
-### 3주차 : 스프링부트 환경을 셋팅 / 간단한 API를 만들기 (완료)  
+### 3주차 : 스프링부트 환경을 셋팅 / 간단한 API를 만들기 (✅)  
 <details>
   <summary>자세히</summary>  
   
@@ -106,7 +106,7 @@ xmlns:context="http://www.springframework.org/schema/context" 문장 추가와
   
 </details>  
   
-## 4주차 : 3차과제에서 작성한 API와 SQL(5가지)를 중심으로 API를 개발 (진행중)  
+### 4주차 : 3차과제에서 작성한 API와 SQL(5가지)를 중심으로 API를 개발 (진행중)  
 -  
    
     
