@@ -84,8 +84,27 @@ xmlns:context="http://www.springframework.org/schema/context" 문장 추가와
   
   
 ### 3주차 : 스프링부트 환경을 셋팅 / 간단한 API를 만들기 (진행중)  
--  
+<details>
+  <summary>자세히</summary>  
   
+## <3주차>
+**학습과제**  
+  
+▪ 주제: 간단한 Restful API 구현  
+▪ - Spring, RestController를 이용하여 백엔드를 이해합니다.   
+▪ ( 간단한 RestController 구현 20년도 접속자 리스트 출력)   
+▪ 샘플 데이터를 DB table로 작성하고 table에 insert 합니다.  
+  
+   
+본격적으로 Rest API에 대한 실습에 들어가봅니다.  
+이번 과제에서는 스프링부트 환경을 셋팅해보고  
+스프링 부트를 기반으로 간단한 API를 만들어보는 시간을 가집니다.  
+
+- 해당 과제를 통해 즉 요약하면 여러분이 얻어갈 내용은 아래 2가지입니다.  
+1) 스프링 VS 스프링부트  
+2) 간단한 API 개발  
+  
+</details>  
   
 ### 4주차 : 3차과제에서 작성한 API와 SQL(5가지)를 중심으로 API를 개발 (미완료)  
 -  
