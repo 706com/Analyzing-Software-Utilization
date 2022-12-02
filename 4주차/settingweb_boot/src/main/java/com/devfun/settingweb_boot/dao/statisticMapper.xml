@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="com.devfun.settingweb_boot.dao.StatisticMapper">
+ 
+    <select id="selectYearMonthLogin" parameterType="string" resultType="hashMap">
+        select count(*) as totCnt
+		from statistc.requestInfo ri
+		where left(ri.createDate , 4) = #{yearMonth} and ri.requestcode = "L" ; 
+    </select>
+    
+    <select id="selectYearMonthDayLogin" parameterType="string" resultType="hashMap">
+        select count(*) as totCnt
+		from statistc.requestInfo ri
+		where left(ri.createDate , 6) = #{yearMonthday} and ri.requestcode = "L" ; 
+    </select>
+    
+    <select id="selectAverageYearMonthLogin" parameterType="string" resultType="hashMap">
+        select Round(count(*) / dpm.days,3) as totCnt
+		from statistc.requestInfo ri , statistc.daysPerMonth dpm
+		where left(ri.createDate, 4) = #{yearMonth} and ri.requestcode = "L" and mid(ri.createDate, 3,2) = dpm.month ;
+    </select>
+    
+    <select id="exceptionHolidayYearMonthlogin" parameterType="string" resultType="hashMap">
+        select count(*) - 
+		(
+			select count(*) 
+			from statistc.requestInfo ri , statistc.holiday h
+			where left(ri.createDate, 4) = #{yearMonth} and ri.requestcode = "L" and left(ri.createDate, 6) = h.yearMonthDay
+		) 	as totcount
+		from statistc.requestInfo ri 
+		where left(ri.createDate, 4) = #{yearMonth} and ri.requestcode = "L" ;
+    </select>
+    
+    <select id="selectDepartmentYearMonthLogin" parameterType="string" resultType="hashMap">
+        select count(*) as totCnt
+		from statistc.requestInfo ri , statistc.user us
+		where left(ri.createDate, 4) = #{departmentYearMonth} and ri.requestcode = "L" and us.department = #{department} and ri.userID = us.USERID ;
+    </select>
+    
+</mapper>
+
+<!-- - StatisticMapper 안에 쿼리를 정의합니다.
+- 대표 restController로 [해당년도의 로그인 수]를 알기 위한 쿼리를 작성합니다. -->
