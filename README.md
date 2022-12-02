@@ -7,11 +7,11 @@
 
 ## What to learn ? 
 
- ***  
+
 <br>
 
 
-‼ IT 대기업 현업 개발자와 함께 하는 백엔드 개발 실무 배우기
+‼ IT 대기업 현업 개발자와 함께 하는 백엔드 개발 실무 배우기 ‼
 
 ✔ 개발자의 직무들을 전체적으로 살펴보고, 백엔드 직무를 조금 더 깊이있게 알아보기. 
 
@@ -28,7 +28,7 @@
 
   
 ## Chapter
-***
+
 <br>
 
 * [1주차](https://github.com/706com/Comento_Spring/tree/main/1%EC%A3%BC%EC%B0%A8) - 개발환경 셋팅
@@ -41,10 +41,10 @@
 
 
 ## Version
-***
+
 <br>
 
-**JAVA IDE / Spring Tool**
+<**JAVA IDE / Spring Tool**>
 
 이름 | 버전 | 설명  
 -------|---------|-------
@@ -56,7 +56,7 @@ Tomcat | 9.0 | jdk 1.8 과 호환
 <br>
 
 
-**Spring Project**
+<**Spring Project**>
 이름 | 버전 | 설명  
 -------|---------|-------
 Spring |5.3.23 |@22.11월 기준 최신
@@ -68,6 +68,6 @@ Tomcat | 9.0 | jdk 1.8 과 호환
 <br>
 
 ## Before Start
-***
+
 
 본 캠프를 위해서는 JAVA 사용 경험, DB, HTML/CSS, 스프링이란 무엇인지에 대한 개념 이해 등이 꼭 있어야 한다.
