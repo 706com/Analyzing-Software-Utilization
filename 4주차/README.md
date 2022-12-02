@@ -56,6 +56,19 @@ statisticMapper.xml
         return service.yearMonthDayloginNum(yearMonthDay);   	
     }
 ```   
+
+<br>
+
+statisticMapper.xml
+```java
+<select id="selectYearMonthDayLogin" parameterType="string" resultType="hashMap">
+    select count(*) as totCnt
+	from statistc.requestInfo ri
+	where left(ri.createDate , 6) = #{yearMonthday} and ri.requestcode = "L" ; 
+</select>
+```   
+<br>
+
 </details>
 <br>
 
@@ -75,6 +88,19 @@ statisticMapper.xml
     }
 ```   
 
+<br>
+
+statisticMapper.xml
+```java
+<select id="selectAverageYearMonthLogin" parameterType="string" resultType="hashMap">
+    select Round(count(*) / dpm.days,3) as totCnt
+	from statistc.requestInfo ri , statistc.daysPerMonth dpm
+	where left(ri.createDate, 4) = #{yearMonth} and ri.requestcode = "L" and mid(ri.createDate, 3,2) = dpm.month ;
+</select>
+```   
+<br>
+
+
 </details>
 <br>
 
@@ -92,6 +118,24 @@ statisticMapper.xml
         return service.exceptionHolidayYearMonthloginNum(yearMonth);
     }
 ```   
+
+<br>
+
+statisticMapper.xml
+```java
+<select id="exceptionHolidayYearMonthlogin" parameterType="string" resultType="hashMap">
+    select count(*) - 
+	(
+		select count(*) 
+		from statistc.requestInfo ri , statistc.holiday h
+		where left(ri.createDate, 4) = #{yearMonth} and ri.requestcode = "L" and left(ri.createDate, 6) = h.yearMonthDay
+	) 	as totcount
+	from statistc.requestInfo ri 
+	where left(ri.createDate, 4) = #{yearMonth} and ri.requestcode = "L" ;
+</select>
+```   
+<br>
+
 </details>
 <br>
 
@@ -110,5 +154,18 @@ statisticMapper.xml
     }
 
 ```   
+
+<br>
+
+statisticMapper.xml
+```java
+<select id="selectDepartmentYearMonthLogin" parameterType="string" resultType="hashMap">
+    select count(*) as totCnt
+	from statistc.requestInfo ri , statistc.user us
+	where left(ri.createDate, 4) = #{departmentYearMonth} and ri.requestcode = "L" and us.department = #{department} and ri.userID = us.USERID ;
+</select>
+```   
+<br>
+
 
 </details>
