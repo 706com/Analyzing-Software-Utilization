@@ -1,3 +1,4 @@
+❗ 과제는 완료하였으나, 4주차 -readme 파일 및 api 명세서 작성 중
 
 # SW 활용률 API 작성 - Spring Comento 
 ```
@@ -15,7 +16,7 @@
 * 부서별로 월 별 소프트웨어 접속자 수 출력
 
 
-### DB
+## DB
 
 
 <details>
@@ -93,7 +94,7 @@ CREATE table statistc.holiday(
 </details>  
 
 <br> <br> 
-### API 
+## API 
 
 <details>
   <summary> 1) 월 별 접속자 수</summary>
@@ -101,7 +102,7 @@ CREATE table statistc.holiday(
 <br>
 
 
-settingTest.java
+***settingTest.java***
 ```java
 // 1)월별 접속자 수
 // requesturl : http://localhost:8031//sqlStatistic/yearMonth?yearMonth=2008
@@ -114,7 +115,7 @@ public Map<String, Object> sqltest(String yearMonth) throws Exception{
 ```   
 <br>
 
-statisticMapper.xml
+***statisticMapper.xml***
 ```java
 <select id="selectYearMonthLogin" parameterType="string" resultType="hashMap">
     select count(*) as totCnt
@@ -124,7 +125,7 @@ statisticMapper.xml
 ```   
 <br>
 
-20년08월 로그인 수
+***20년08월 로그인 수***
 
 ![월별 접속자 수](https://user-images.githubusercontent.com/104816530/205307842-bfaa7915-27ac-465f-a528-3024b25c6f0b.jpg)
 
@@ -148,7 +149,7 @@ public Map<String, Object> sqltest2(String yearMonthDay) throws Exception{
 
 <br>
 
-statisticMapper.xml
+***statisticMapper.xml***
 ```java
 <select id="selectYearMonthDayLogin" parameterType="string" resultType="hashMap">
     select count(*) as totCnt
@@ -158,7 +159,7 @@ statisticMapper.xml
 ```   
 <br>
 
-20년 8월 15일 접속자 수  
+***20년 8월 15일 접속자 수***
   
 ![일자별 접속자 수](https://user-images.githubusercontent.com/104816530/205431652-520b0f8d-a141-4908-b568-206702097577.jpg)
 
@@ -183,7 +184,7 @@ public Map<String, Object> sqltest3(String yearMonth) throws Exception{
 
 <br>
 
-statisticMapper.xml
+***statisticMapper.xml***
 ```java
 <select id="selectAverageYearMonthLogin" parameterType="string" resultType="hashMap">
     select Round(count(*) / dpm.days,3) as totCnt
@@ -193,7 +194,7 @@ statisticMapper.xml
 ```   
 <br>
 
-20년 8월 평균 하루 로그인 수  
+***20년 8월 평균 하루 로그인 수*** 
   
 ![평균 하루 로그인 수](https://user-images.githubusercontent.com/104816530/205431654-22ff296e-bbdd-4556-aa5b-a8fe65c2a857.jpg)
 
@@ -217,7 +218,7 @@ public Map<String, Object> sqltest4(String yearMonth) throws Exception{
 
 <br>
 
-statisticMapper.xml
+***statisticMapper.xml***
 ```java
 <select id="exceptionHolidayYearMonthlogin" parameterType="string" resultType="hashMap">
     select count(*) - 
@@ -232,7 +233,7 @@ statisticMapper.xml
 ```   
 <br>
 
-20년 8월 공휴일을 제외한 로그인 수  
+***20년 8월 공휴일을 제외한 로그인 수***  
   
 ![휴일을 제외한 로그인 수](https://user-images.githubusercontent.com/104816530/205431665-5ce58775-6425-48ea-b20a-120914c168e8.jpg)
 
@@ -256,7 +257,7 @@ public Map<String, Object> sqltest5(String yearMonth, String department) throws 
 
 <br>
 
-statisticMapper.xml
+***statisticMapper.xml***
 ```java
 <select id="selectDepartmentYearMonthLogin" parameterType="string" resultType="hashMap">
     select count(*) as totCnt
@@ -266,7 +267,7 @@ statisticMapper.xml
 ```   
 <br>
 
-20년 8월 IT부서 월별 로그인 수  
+***20년 8월 IT부서 월별 로그인 수***  
    
 ![부서별 월별 로그인수](https://user-images.githubusercontent.com/104816530/205431661-1b25d05f-5bd5-4637-8209-03afc91f3774.jpg)
 
