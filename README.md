@@ -35,7 +35,7 @@
 * [1주차](https://github.com/706com/Comento_Spring/tree/main/1%EC%A3%BC%EC%B0%A8) - 개발환경 셋팅
 * [2주차](https://github.com/706com/Comento_Spring/tree/main/2%EC%A3%BC%EC%B0%A8) - 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기
 * [3주차](https://github.com/706com/Comento_Spring/tree/main/3%EC%A3%BC%EC%B0%A8) - 스프링부트 환경을 셋팅 / 간단한 API 만들기
-* [4주차](https://github.com/706com/Comento_Spring/tree/main/4%EC%A3%BC%EC%B0%A8) - 3차과제에서 작성한 API 와 SQL(5가지)를 중심으로 API를 개발 
+* [4주차](https://github.com/706com/Comento_Spring/tree/main/4%EC%A3%BC%EC%B0%A8) - 3차과제에서 작성한 SQL(5가지)를 중심으로 API를 개발 
   
 <br>
 
