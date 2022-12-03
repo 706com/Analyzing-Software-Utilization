@@ -92,11 +92,11 @@ CREATE table statistc.holiday(
 
 </details>  
 
-<br> <br> 
+<br>
 ## API 
 
 <details>
-  <summary> 1) 월 별 접속자 수</summary>
+  <summary> ❗ 월 별 접속자 수 ❗</summary>
 
 <br>
 
@@ -133,7 +133,7 @@ public Map<String, Object> sqltest(String yearMonth) throws Exception{
 
 
 <details>
-  <summary> 2) 일자별 접속자 수</summary>
+  <summary> ❗ 일자별 접속자 수 ❗</summary>
 
 ```java
 // 2) 일자별 접속자 수
@@ -167,7 +167,7 @@ public Map<String, Object> sqltest2(String yearMonthDay) throws Exception{
 
 
 <details>
-  <summary> 3) 평균 하루 로그인 수</summary>
+  <summary> ❗ 평균 하루 로그인 수 ❗</summary>
 
 
 ```java
@@ -202,7 +202,7 @@ public Map<String, Object> sqltest3(String yearMonth) throws Exception{
 
 
 <details>
-  <summary> 4) 공휴일을 제외한 로그인 수</summary>
+  <summary> ❗ 공휴일을 제외한 로그인 수 ❗</summary>
 
 ```java
 // 4) 공휴일을 제외한 로그인 수
@@ -240,7 +240,7 @@ public Map<String, Object> sqltest4(String yearMonth) throws Exception{
 <br>
 
 <details>
-  <summary> 5) 부서별 월별 로그인 수</summary>
+  <summary> ❗ 부서별 월별 로그인 수 ❗</summary>
 
 ```java
 // 5) 부서별 월별 로그인 수
