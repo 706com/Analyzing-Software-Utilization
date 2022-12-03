@@ -1,4 +1,3 @@
-❗ 과제는 완료하였으나, 4주차 -readme 파일 및 api 명세서 작성 중
 
 # SW 활용률 API 작성 - Spring Comento 
 ```
