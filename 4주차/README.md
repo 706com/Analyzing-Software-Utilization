@@ -8,18 +8,19 @@
 
 * 일자별 소프트웨어에 접속한 접속자 수 출력
 
-* 월 기준으로, 평균 하루 로그인 수 출력
+* 월 기준으로, 평균 하루 접속자 수 출력
 
 * 공휴일을 제외한 월 별 소프트웨어 접속자 수 출력
 
 * 부서별로 월 별 소프트웨어 접속자 수 출력
 
+<br>
 
 ## DB
 
 
 <details>
-    <summary>테이블 및 데이터 보기</summary>
+    <summary>❗ 테이블 및 데이터 보기 ❗</summary>
  
 
 **Database**  
@@ -93,6 +94,7 @@ CREATE table statistc.holiday(
 </details>  
 
 <br>
+
 ## API 
 
 <details>
